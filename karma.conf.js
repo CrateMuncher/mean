@@ -51,7 +51,7 @@ module.exports = function(config) {
             'public/*/controllers/*.js': ['coverage'],
             'public/*/services/*.js': ['coverage'],
             'packages/*/public/*/controllers/*.js': ['coverage'],
-            'packages/*public/*/services/*.js': ['coverage']
+            'packages/*/public/*/services/*.js': ['coverage']
         },
 
         coverageReporter: {
